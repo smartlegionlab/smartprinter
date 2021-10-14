@@ -36,14 +36,6 @@ Author and developer: ___A.A Suvorov___
 - Linux: All.
 - Windows: 7/8/10.
 - Termux (Android).
-
-***
-
-## Requirements:
-
-- [Python](https://python.org) 3.6+
-- [click](https://github.com/pallets/click) 8.0.1
-  - `pip3 install click~=8.0.1`
   
 ***
 
@@ -83,6 +75,8 @@ indented before and after the message, indented with the specified characters.
 - for test coverage: `pytest --cov --cov-report=html`
 
 ### Use:
+
+- `pip3 install smartprinter`
 
 ```python
 from smartprinter.printers import Printer
