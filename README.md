@@ -44,8 +44,6 @@ Author and developer: ___A.A Suvorov___
 - [Python](https://python.org) 3.6+
 - [click](https://github.com/pallets/click) 8.0.1
   - `pip3 install click~=8.0.1`
-- [smartpasslib](https://github.com/smartlegionlab/smartpasslib) 0.2.5
-  - `pip3 install smartpassglib~=0.1.0`
   
 ***
 
@@ -137,8 +135,6 @@ Printer.pager.echo('Text', show=True)
 ***
 
 ## Information:
-
-
 
     --------------------------------------------------------
     Licensed under the terms of the BSD 3-Clause License
