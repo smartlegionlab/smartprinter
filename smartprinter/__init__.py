@@ -6,4 +6,4 @@
 # All rights reserved.
 # --------------------------------------------------------
 """Cross-platform smart printer for console applications."""
-__version__ = '0.1.0'
+__version__ = '0.1.1'

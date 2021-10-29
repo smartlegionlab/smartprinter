@@ -10,9 +10,9 @@ import shutil
 from smartprinter import printers
 
 
-class TestDefaultPrinter:
-    def test_echo(self, capsys, def_printer, context):
-        msg = def_printer.echo(context.text)
+class TestBsePrinter:
+    def test_echo(self, capsys, base_printer, context):
+        msg = base_printer.echo(context.text)
         out: str = capsys.readouterr()[0]
         assert out.rstrip('\n') == context.text and msg == context.text
 
@@ -44,7 +44,7 @@ class TestSmartPrinter:
 
 class TestPrintersFactory:
     def test_get_default(self, factory):
-        assert isinstance(factory.get_default(), printers.DefaultPrinter)
+        assert isinstance(factory.get_base(), printers.BasePrinter)
 
     def test_get_click(self, factory):
         assert isinstance(factory.get_click(), printers.ClickPrinter)

@@ -6,7 +6,7 @@
 # All rights reserved.
 # --------------------------------------------------------
 from smartprinter.printers import (
-    DefaultPrinter,
+    BasePrinter,
     ClickPrinter,
     PagerPrinter,
     SmartPrinter
@@ -14,7 +14,7 @@ from smartprinter.printers import (
 
 
 def def_print(text=''):
-    printer = DefaultPrinter()
+    printer = BasePrinter()
     return printer.echo(text)
 
 

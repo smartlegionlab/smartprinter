@@ -14,6 +14,7 @@
 
 ## Short Description:
 ___smartprinter___ - Cross-platform smart printer for console applications.
+
 ***
 
 Author and developer: ___A.A Suvorov___
@@ -47,7 +48,9 @@ Author and developer: ___A.A Suvorov___
 
 ## What's new?
 
-### ___smartprinter v0.1.0___
+### ___smartprinter v0.1.1___
+
+- Rename Printer.default / Printer.base
 
 ***
 
@@ -79,18 +82,18 @@ indented before and after the message, indented with the specified characters.
 - `pip3 install smartprinter`
 
 ```python
-from smartprinter.printers import Printer
+from smartprinter.printers import Printer, PrintersFactory
 
 printer = Printer()
-printer.default.echo('Text')
+printer.base.echo('Text')
 printer.click.echo('Text', show=True, color='green')
 printer.smart.echo('Text', show=True, char='*')
 printer.pager.echo('Text', show=True)
 
-def_printer = printer.factory.get_default()
-click_printer = printer.factory.get_click()
-smart_printer = printer.factory.get_smart()
-pager = printer.factory.get_pager()
+def_printer = PrintersFactory.get_base()
+click_printer = PrintersFactory.get_click()
+smart_printer = PrintersFactory.get_smart()
+pager = PrintersFactory.get_pager()
 
 ```
 
@@ -100,7 +103,7 @@ or
 from smartprinter.printers import Printer
 
 printer = Printer()
-Printer.default.echo('Text')
+Printer.base.echo('Text')
 Printer.click.echo('Text', show=True, color='green')
 Printer.smart.echo('Text', show=True, char='*')
 Printer.pager.echo('Text', show=True)

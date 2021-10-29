@@ -19,11 +19,11 @@ class PrinterBase(ABC):
         """Abstract Printer"""
 
 
-class DefaultPrinter(PrinterBase):
+class BasePrinter(PrinterBase):
     @classmethod
     def echo(cls, text='', show=True):
         """
-        Default printer.
+        Base printer.
 
         - Normal console output by default.
 
@@ -85,7 +85,7 @@ class PagerPrinter(PrinterBase):
 
 
 class SmartPrinter(PrinterBase):
-    _def = DefaultPrinter()
+    _def = BasePrinter()
 
     @classmethod
     def echo(cls, text='', char='-', show=True):
@@ -113,13 +113,21 @@ class SmartPrinter(PrinterBase):
         return shutil.get_terminal_size()[0]
 
 
+class Printer:
+    """Multifunction Printer"""
+    base = BasePrinter()
+    click = ClickPrinter()
+    pager = PagerPrinter()
+    smart = SmartPrinter()
+
+
 class PrintersFactory:
     """Printers factory"""
 
     @classmethod
-    def get_default(cls):
-        """Get default printer"""
-        return DefaultPrinter()
+    def get_base(cls):
+        """Get base printer"""
+        return BasePrinter()
 
     @classmethod
     def get_click(cls):
@@ -134,11 +142,6 @@ class PrintersFactory:
     def get_pager(cls):
         return PagerPrinter()
 
-
-class Printer:
-    """Multifunction Printer"""
-    factory = PrintersFactory()
-    default = DefaultPrinter()
-    click = ClickPrinter()
-    pager = PagerPrinter()
-    smart = SmartPrinter()
+    @classmethod
+    def get_printer(cls):
+        return Printer()

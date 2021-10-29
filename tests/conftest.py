@@ -17,9 +17,9 @@ def context():
     return context(text='Test', show=True, color='red', char='-')
 
 
-@pytest.fixture(name='def_printer')
-def def_printer():
-    return printers.DefaultPrinter()
+@pytest.fixture(name='base_printer')
+def base_printer():
+    return printers.BasePrinter()
 
 
 @pytest.fixture(name='click_printer')
