@@ -3,6 +3,7 @@
 
 ***
 
+[![PyPI Downloads](https://static.pepy.tech/badge/smartprinter)](https://pepy.tech/projects/smartprinter)
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/smartlegionlab/smartprinter)](https://github.com/smartlegionlab/smartprinter/)
 [![PyPI - Downloads](https://img.shields.io/pypi/dm/smartprinter?label=pypi%20downloads)](https://pypi.org/project/smartprinter/)
 ![GitHub top language](https://img.shields.io/github/languages/top/smartlegionlab/smartprinter)
