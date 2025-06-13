@@ -1,4 +1,4 @@
-# smartprinter
+# smartprinter <sup>v0.3.1</sup>
 
 
 ***
@@ -40,7 +40,7 @@ Author and developer: ___A.A. Suvorov___
 
 ## What's new?
 
-### ___smartprinter v0.2.1___
+### ___smartprinter v0.3.1___
 
 ***
 
@@ -126,6 +126,6 @@ Printer.pager.echo('Text', show=True)
     --------------------------------------------------------
     Licensed under the terms of the BSD 3-Clause License
     (see LICENSE for details).
-    Copyright © 2018-2024, A.A. Suvorov
+    Copyright © 2018-2025, A.A. Suvorov
     All rights reserved.
     --------------------------------------------------------
