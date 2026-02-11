@@ -1,4 +1,4 @@
-# smartprinter <sup>v0.3.1</sup>
+# smartprinter <sup>v0.3.2</sup>
 
 
 ***
@@ -18,7 +18,7 @@ ___smartprinter___ - Cross-platform smart printer for console applications.
 
 ***
 
-Author and developer: ___A.A. Suvorov___
+Author and developer: ___Alexander Suvorov___
 
 [![smartlegiondev@gmail.com](https://img.shields.io/static/v1?label=email:&message=smartlegiondev@gmail.com&color=blue)](mailto:smartlegiondev@gmail.com)
 
@@ -40,7 +40,7 @@ Author and developer: ___A.A. Suvorov___
 
 ## What's new?
 
-### ___smartprinter v0.3.1___
+### ___smartprinter v0.3.2___
 
 ***
 
@@ -126,6 +126,6 @@ Printer.pager.echo('Text', show=True)
     --------------------------------------------------------
     Licensed under the terms of the BSD 3-Clause License
     (see LICENSE for details).
-    Copyright © 2018-2025, A.A. Suvorov
+    Copyright © 2026, Alexander Suvorov
     All rights reserved.
     --------------------------------------------------------
