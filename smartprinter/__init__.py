@@ -4,5 +4,5 @@
 # Copyright © 2026, Alexander Suvorov
 # All rights reserved.
 # --------------------------------------------------------
-"""Cross-platform smart printer for console applications."""
-__version__ = '0.3.2'
+"""Cross-platform python library, smart printer for console applications."""
+__version__ = 'v0.4.0'

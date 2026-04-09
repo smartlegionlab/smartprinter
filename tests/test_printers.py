@@ -9,7 +9,7 @@ import shutil
 from smartprinter import printers
 
 
-class TestBsePrinter:
+class TestBasePrinter:
     def test_echo(self, capsys, base_printer, context):
         msg = base_printer.echo(context.text)
         out: str = capsys.readouterr()[0]

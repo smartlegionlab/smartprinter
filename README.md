@@ -1,52 +1,23 @@
-# smartprinter <sup>v0.3.2</sup>
+# smartprinter <sup>v0.4.0</sup>
 
+Cross-platform python library, smart printer for console applications.
 
-***
+---
 
-[![PyPI Downloads](https://static.pepy.tech/badge/smartprinter)](https://pepy.tech/projects/smartprinter)
+![Platform](https://img.shields.io/badge/Windows%20%7C%20Linux%20%7C%20macOS%20%7C%20Termux-666?style=flat-square)
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/smartlegionlab/smartprinter)](https://github.com/smartlegionlab/smartprinter/)
-[![PyPI - Downloads](https://img.shields.io/pypi/dm/smartprinter?label=pypi%20downloads)](https://pypi.org/project/smartprinter/)
 ![GitHub top language](https://img.shields.io/github/languages/top/smartlegionlab/smartprinter)
-[![PyPI](https://img.shields.io/pypi/v/smartprinter)](https://pypi.org/project/smartprinter)
 [![GitHub](https://img.shields.io/github/license/smartlegionlab/smartprinter)](https://github.com/smartlegionlab/smartprinter/blob/master/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/smartlegionlab/smartprinter?style=social)](https://github.com/smartlegionlab/smartprinter/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/smartlegionlab/smartprinter?style=social)](https://github.com/smartlegionlab/smartprinter/network/members)
+[![PyPI](https://img.shields.io/pypi/v/smartprinter)](https://pypi.org/project/smartprinter)
+[![PyPI - Downloads](https://img.shields.io/pypi/dm/smartprinter?label=pypi%20downloads)](https://pypi.org/project/smartprinter/)
+[![PyPI Downloads](https://static.pepy.tech/badge/smartprinter)](https://pepy.tech/projects/smartprinter)
 [![PyPI - Format](https://img.shields.io/pypi/format/smartprinter)](https://pypi.org/project/smartprinter)
 
-***
+---
 
-## Short Description:
-___smartprinter___ - Cross-platform smart printer for console applications.
-
-***
-
-Author and developer: ___Alexander Suvorov___
-
-[![smartlegiondev@gmail.com](https://img.shields.io/static/v1?label=email:&message=smartlegiondev@gmail.com&color=blue)](mailto:smartlegiondev@gmail.com)
-
-***
-
-## Supported:
-
-- Linux: All.
-- Windows: 7/8/10.
-- Termux (Android).
-  
-***
-
-## Images:
-
-![logo](https://github.com/smartlegionlab/smartprinter/raw/master/data/images/smartprinter.png)
-
-***
-
-## What's new?
-
-### ___smartprinter v0.3.2___
-
-***
-
-## Description:
-
-___smartprinter___ - Cross-platform smart printer for console applications.
+**smartprinter** - Cross-platform python library, smart printer for console applications.
 
 Has several different objects for displaying to the console or generating a string: 
 
@@ -57,9 +28,19 @@ after being shown in a pager.
 - output with the ability to print a message in the center of the console, regardless of changes in its width,
 indented before and after the message, indented with the specified characters.
 
-***
+---
 
-## Help:
+## ⚠️ Disclaimer
+
+**By using this software, you agree to the full disclaimer terms.**
+
+**Summary:** Software provided "AS IS" without warranty. You assume all risks.
+
+**Full legal disclaimer:** See [DISCLAIMER.md](https://github.com/smartlegionlab/smartperinter/blob/master/DISCLAIMER.md)
+
+---
+
+## Help
 
 ### Install and use:
 
@@ -100,32 +81,16 @@ Printer.pager.echo('Text', show=True)
 
 ```
 
-***
+---
 
-- Use [click](https://github.com/pallets/click) by [license](https://github.com/pallets/click/blob/main/LICENSE.rst)
+## Coverage
 
-***
+![logo](https://github.com/smartlegionlab/smartprinter/raw/master/data/images/smartprinter.png)
 
-## Disclaimer of liability:
+---
 
-    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
-    AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
-    IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
-    DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
-    FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
-    DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
-    SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
-    CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
-    OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
-    OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+## License
 
-***
+**[BSD 3-Clause License](https://github.com/smartlegionlab/smartprinter/blob/master/LICENSE)**
 
-## Information:
-
-    --------------------------------------------------------
-    Licensed under the terms of the BSD 3-Clause License
-    (see LICENSE for details).
-    Copyright © 2026, Alexander Suvorov
-    All rights reserved.
-    --------------------------------------------------------
+Copyright (©) 2026, [Alexander Suvorov](https://github.com/smartlegionlab)
