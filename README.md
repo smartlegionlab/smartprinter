@@ -1,4 +1,4 @@
-# smartprinter <sup>v0.4.0</sup>
+# smartprinter <sup>v0.4.1</sup>
 
 Cross-platform python library, smart printer for console applications.
 
@@ -36,7 +36,7 @@ indented before and after the message, indented with the specified characters.
 
 **Summary:** Software provided "AS IS" without warranty. You assume all risks.
 
-**Full legal disclaimer:** See [DISCLAIMER.md](https://github.com/smartlegionlab/smartperinter/blob/master/DISCLAIMER.md)
+**Full legal disclaimer:** See [DISCLAIMER.md](https://github.com/smartlegionlab/smartprinter/blob/master/DISCLAIMER.md)
 
 ---
 

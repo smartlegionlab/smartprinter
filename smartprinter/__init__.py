@@ -5,4 +5,4 @@
 # All rights reserved.
 # --------------------------------------------------------
 """Cross-platform python library, smart printer for console applications."""
-__version__ = 'v0.4.0'
+__version__ = 'v0.4.1'
